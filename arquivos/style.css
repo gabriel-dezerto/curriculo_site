@@ -1,0 +1,326 @@
+body, html{
+    margin: 0;
+    font-family: system-ui;
+}
+body{
+    background-image: url(../imagens/fundo_site.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    color:aliceblue;
+}
+
+
+/*-----------------HEADER-----------------*/
+header{
+    display: flex;
+    width: auto;
+    height: 120px;
+    background-color: rgb(0, 89, 167);
+    color: aliceblue;
+    align-items: center;
+}
+.nome{
+    margin-right: auto;
+    margin-left: 80px;
+}
+.navbar{
+    margin-left: auto;
+    margin-right: 120px;
+}
+.navUl{
+    list-style: none;
+}
+.uscs{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.uscs_logo{
+    padding: 15px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.senai{
+    display: flex;
+    justify-content: center;
+    margin-right: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.senai_logo{
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*-----------------HEADER-----------------*/
+
+/*-----------------Principal do site-----------------*/
+.div_sobre{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    gap: 150px;
+}
+.div_foto{
+    background-color: brown;
+}
+.div_sobre_texto{
+    background-color: blue;
+    text-align: center;
+}
+
+.h1_topicos{
+    color: rgb(33, 151, 253);
+    font-size: 29px;
+}
+/*-----------------div mãe-----------------*/
+.apresentacao{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 15px;
+    gap: 150px;
+}
+
+/*-----------------Subdivisão (objetivos)-----------------*/
+.objetivo{
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 25px;
+    justify-items: center;
+    transition: transform 0.3s ease;
+}
+.objetivo:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Texto da subdivisão-----------------*/
+.text_obj{
+    font-size: 19px;
+    font-family: system-ui;
+    line-height: 2;
+    color: rgb(212, 212, 212);
+}
+/*-----------------Texto da subdivisão-----------------*/
+/*-----------------Subdivisão (objetivos)-----------------*/
+
+/*-----------------Subdivisão (formação)-----------------*/
+.formacao{
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 25px;
+    justify-items: center;
+    transition: transform 0.3s ease;
+}
+.formacao:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Linha abaixo do título-----------------*/
+.hr_formac{
+    width: 300px;
+}
+/*-----------------Linha abaixo do título-----------------*/
+/*-----------------Personalização dos itens da lista-----------------*/
+.li_formac{
+    font-size: 19px;
+    margin-bottom: 35px;
+    font-family: system-ui;
+    line-height: 2;
+    color: rgb(212, 212, 212);
+}
+ul li::marker{ /*Personalização da bolinha da lista*/
+    color: rgb(33, 151, 253);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+/*-----------------Subdivisão (formação)-----------------*/
+/*-----------------div mãe-----------------*/
+
+/*-----------------Div de diplomas-----------------*/
+.dip{
+    background-color: bisque;
+    justify-items: center;
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 800px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+.dip:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+.li_dip{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-family: system-ui;
+    line-height: 1.5;
+    color: rgb(212, 212, 212);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+/*-----------------Div de diplomas-----------------*/
+
+/*-----------------Div de características-----------------*/
+.caracteristicas{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 15px;
+    gap: 150px;
+}
+/*-----------------Subdivisão (habilidades técnicas)-----------------*/
+.hab_tec{
+    background-color:blueviolet;
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.hab_tec:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+.li_hab_tec{
+    font-size: 19px;
+    color: rgb(212, 212, 212);
+    font-family: system-ui;
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+/*-----------------Subdivisão (habilidades técnicas)-----------------*/
+
+/*-----------------Subdivisão (habilidades interpessoais)-----------------*/
+.hab_int{
+    background-color: blue;
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    justify-items: center;
+    transition: transform 0.3s ease;
+}
+.hab_int:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+.li_hab_int{
+    font-size: 19px;
+    color: rgb(212, 212, 212);
+    font-family: system-ui;
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+/*-----------------Subdivisão (habilidades interpessoais)-----------------*/
+
+/*-----------------Subdivisão (informações adicionais)-----------------*/
+.inf_add{
+    background-color: brown;
+    background-color: rgba(145, 145, 145, 0.671);
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    justify-items: center;
+    margin-right: 15px;
+
+    transition: transform 0.3s ease;
+}
+.inf_add:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/*-----------------Personalização dos itens da lista-----------------*/
+.li_inf_add{
+    font-size: 19px;
+    color: rgb(212, 212, 212);
+    font-family: system-ui;
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+/*-----------------Subdivisão (informações adicionais)-----------------*/
+/*-----------------Div de características-----------------*/
+
+
+/*--------------Footer--------------*/
+footer{
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 100px;
+    text-align: center;
+    font-family: system-ui;
+}
+.div_h1_footer{
+    background-color: rgba(145, 145, 145, 0.671);
+    border-radius: 15px;
+}
+.h1_footer{
+    color: rgb(235, 235, 235);
+    display: inline-block; 
+    border-bottom: 3px solid rgb(33, 151, 253);
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+.footer_A{
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 15px;
+    gap: 150px;
+}
+.footer_B{
+    background-color: rgba(145, 145, 145, 0.671);
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+
+    transition: transform 0.3s ease;
+}
+.footer_B:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.email{
+    filter: invert();
+    width: 100px;
+    height: 100px;
+}
+.linkedin{
+    filter: invert();
+    width: 150px;
+    height: 150px;
+    margin-top: -25px;
+}
+.github{
+    filter: invert();
+    width: 100px;
+    height: 100px;
+}
+.telefone{
+    filter: invert();
+    width: 100px;
+    height: 100px;
+}

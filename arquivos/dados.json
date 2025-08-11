@@ -1,0 +1,44 @@
+{
+    "nome": "Gabriel Dezerto Reina",
+    "email": "dezertogabriel@gmail.com",
+    "objetivo": "Busco uma oportunidade de estágio na área de tecnologia para aplicar e aprimorar as habilidades adquiridas em cursos e projetos. Tenho como foco demonstrar meu potencial e contribuir ativamente com a equipe na resolução de problemas e no desenvolvimento de soluções. Valorizo o aprendizado contínuo e o trabalho em equipe, e almejo crescer profissionalmente dentro da empresa, construindo uma carreira sólida em um ambiente no qual me sinta integrado.",
+    "formacao": {
+        "formacao1": "Cursando 2° semestre de Ciência da Computação na Universidade de São Caetano do Sul (USCS)",
+        "formacao2": "Cursando o 2° semestre do curso técnico de Desenvolvimento de Sistemas na rede de ensino SENAI",
+        "formacao3": "Tiro de Guerra de São Caetano do Sul (2025)",
+        "formacao4": "Ensino Médio - Colégio Universitário USCS (2024)"
+    },
+    "diplomas": {
+        "diploma1": "2024: Crie um site simples usando HTML, CSS e JavaScript - Fundação Bradesco",
+        "diploma2": "2025: Modelagem de dados - Fundação Bradesco",
+        "diploma3": "2025: Introdução à Cibersegurança - Cisco Networking Academy",
+        "diploma4": "2025: Destaque da Operação Alvorada - Tiro de Guerra de São Caetano do Sul"
+    },
+    "hab_tec": {
+        "hab_tec1": "HTML",
+        "hab_tec2": "CSS",
+        "hab_tec3": "JavaScript",
+        "hab_tec4": "PHP",
+        "hab_tec5": "Linguagem C",
+        "hab_tec6": "Inglês intermediário"
+    },
+    "hab_int": {
+        "hab_int1": "Fácil aprendizagem",
+        "hab_int2": "Comunicação clara",
+        "hab_int3": "Boa relação interpessoal",
+        "hab_int4": "Liderança",
+        "hab_int5": "Disciplina",
+        "hab_int6": "Comprometido com a finalização de tarefas"
+    },
+    "inf_add": {
+        "inf_add1": "Primeiro colocado da turma do Curso de Formação de Cabo no Tiro de Guerra de São Caetano do Sul",
+        "inf_add2": "Chefe da Turma de atiradores do Tiro de Guerra de São Caetano do Sul",
+        "inf_add3": "Xerife da Operação Alvorada do Tiro de Guerra de São Caetano do Sul em conjunto com o Tiro de Guerra de São Bernardo do Campo"
+    },
+    "linkedin": "https://www.linkedin.com/in/gabriel-dezerto-reina-2b9320351/",
+    "nome_linkedin": "Gabriel Dezerto Reina",
+    "github": "https://github.com/gabriel-dezerto",
+    "nome_git": "gabriel-dezerto",
+    "maps": "https://maps.app.goo.gl/H8ihyoz9FB7W7hH76",
+    "nome_maps": "São Caetano do Sul"
+}
