@@ -49,6 +49,18 @@ $usuario = json_decode($dadosJson, true);
       </div>
     </header>
     <main>
+    <div class="div_sobre">
+        <div class="div_foto">
+          <img src="../imagens/minha-imagem.jpeg" class="minha_foto"/>
+        </div>
+        <div class="div_sobre_texto">
+          <h1 class="h1_topicos">Sobre Mim</h1>
+          <hr class="hr_formac" />
+          <p class="text_sobre">
+            <?= $usuario['sobre_mim'] ?>
+          </p>
+        </div>
+      </div>
       <div class="apresentacao">
         <div class="objetivo">
           <h1 class="h1_topicos">Objetivos</h1>
