@@ -79,6 +79,7 @@ header{
     width: 400px;
     height: 400px;
     border-radius: 300px;
+    object-fit: cover;
 }
 .div_foto{
     background-color: rgb(33, 151, 253);
@@ -349,4 +350,5 @@ footer{
     filter: invert();
     width: 100px;
     height: 100px;
+
 }
